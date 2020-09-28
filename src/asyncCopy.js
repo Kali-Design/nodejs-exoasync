@@ -1,7 +1,7 @@
 import fs from 'fs'
 import { COPYFILE_EXCL } from 'constants'
 
-const callback(err) => { 
+const callback = (err) => { 
   if (err) throw err;
   console.log('../file1.txt was copied to ../file2.txt')
 }
