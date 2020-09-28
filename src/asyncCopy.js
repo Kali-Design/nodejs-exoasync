@@ -1,3 +1,6 @@
+/* Ecrivez un programme qui copie le fichier file1.txt vers le fichier file2.txt en utilisant les api asynchrones 
+basées sur des callbacks du module fs de node.js.*/
+
 import fs from 'fs'
 import { COPYFILE_EXCL } from 'constants'
 
